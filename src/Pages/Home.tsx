@@ -1,7 +1,11 @@
-import React from "react";
+import Contents from "../components/Contents";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Contents />
+    </div>
+  );
 }
 
 export default Home;
